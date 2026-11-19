@@ -176,7 +176,7 @@ dependencies {
     testImplementation("net.sf.kxml:kxml2:2.3.0")
     // Roborazzi asks for kotlinx-io 0.3.3; Ktor (removed) had raised it to 0.9.1, the version the unit tests ran with.
     testImplementation("org.jetbrains.kotlinx:kotlinx-io-core:0.9.1")
-    testImplementation("org.jetbrains.kotlinx:kotlinx-io-bytestring:0.9.1")
+    testImplementation("org.jetbrains.kotlinx:kotlinx-io-bytestring:0.9.3")
     androidTestImplementation("androidx.test:runner:1.6.2")
     androidTestImplementation("androidx.test.ext:junit:1.2.1")
     implementation(libs.androidx.core.ktx)
